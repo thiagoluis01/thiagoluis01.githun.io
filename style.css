@@ -1,0 +1,178 @@
+/* Estilização do corpo todo */
+
+* {
+    font-family: 'poppins', sans-serif;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 35px;
+    padding: 0;
+    width: auto;
+}
+
+
+/* Estilização do cabeçalho */
+
+.Cabeçalho {
+    background: #18143bd0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cabeçalho-Logobotões {
+    display: flex;
+}
+
+.Cabeçalho-Logobotões .Atalhos img {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilização Logo */
+
+.logo {
+    justify-content: left;
+    height: 150px;
+    border-radius: 100px;
+}
+
+/* Estilização dos botões */
+
+.Atalhos {
+    align-items: center;
+    font-size: 22px;
+    background-color: #ecc76fcc;
+    border: solid black;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* Estilização links */
+
+a b {
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+
+/*Estilização do corpo */
+
+body {
+    background-color: #ecc76fcc;
+}
+
+
+
+/* Estilização do titulo */
+
+.Cabeçalho-titulo h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    background: linear-gradient(90deg, rgb(191, 133, 189), #ecc76fcc, rgb(230, 157, 227));
+}
+
+/* =====Estilização Inicio===== */
+
+.Inicio1 {
+    background: #18143bd0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: ;
+}
+
+.Conteudo-inicio {
+    background-color: aliceblue;
+    border-radius: 45px;
+}
+
+.Conteudo-inicio h1 {
+    font-size: 2.8rem;
+    margin: 15px;
+    line-height: 1.2;
+}
+
+
+.Conteudo-inicio p {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.Imagem1 {
+    height: 350px;
+    border-radius: 2%;
+}
+
+/* ===== Estilização Sobre ===== */
+
+.Conteudo-sobre {
+    display: grid;
+    margin: 60px;
+}
+
+.Conteudo-sobre h1 {
+    font-size: 70px;
+    font-family: 'poppins', sans-serif;
+}
+
+.Conteudo-sobre p {
+    font-size: 22px;
+    padding: 0%;
+    margin: auto;
+}
+
+/* ===== Estilização Serviços ===== */
+.Conteudo-serviços h1 {
+    font-size: 70px;
+}
+
+.Serviços {
+    align-items: center;
+    text-align: justify;
+    margin: 50px;
+    display: flex;
+    width: fit-content;
+}
+
+.Serviços img {
+    height: 200px;
+    padding: 0px;
+    margin: auto;
+}
+
+.Serviços p {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+/*===== Contatos =====*/
+
+
+.Conteudo-Contatos h1 {
+    font-size: 60px;
+}
+
+.Conteudo-Contatos label {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Conteudo-Contatos textarea {
+    width: 400px;
+    
+}
+
+.mensagem button {
+    size: 30px;
+    justify-content: end ;
+}
